@@ -11,7 +11,7 @@ from transfer_dqn_agent_pressure_one import TransferDQNPressOneAgent
 from baseline.random_agent import RandomAgent
 # from dgn_agent import DGNAgent
 from stgat_agent import STGATAgent
-from gcn_agent import GCNAgent
+# from gcn_agent import GCNAgent
 from simple_dqn_one_agent import SimpleDQNOneAgent
 from transfer_dqn_one_agent import TransferDQNOneAgent
 from sumo_env import SumoEnv
