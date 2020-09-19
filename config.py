@@ -429,7 +429,6 @@ DIC_AGENTS = {
     "SimpleDQN": SimpleDQNAgent,
     "Formula": FormulaAgent,
     "Random": RandomAgent,
-    'GCN': GCNAgent,
     'SimpleDQNOne': SimpleDQNOneAgent,
     'STGAT':STGATAgent,
     "TransferDQN": TransferDQNAgent,
