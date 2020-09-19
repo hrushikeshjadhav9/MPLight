@@ -9,7 +9,7 @@ from transfer_dqn_agent import TransferDQNAgent
 from transfer_dqn_agent_pressure import TransferDQNPressAgent
 from transfer_dqn_agent_pressure_one import TransferDQNPressOneAgent
 from baseline.random_agent import RandomAgent
-from dgn_agent import DGNAgent
+# from dgn_agent import DGNAgent
 from stgat_agent import STGATAgent
 from gcn_agent import GCNAgent
 from simple_dqn_one_agent import SimpleDQNOneAgent
@@ -429,7 +429,6 @@ DIC_AGENTS = {
     "SimpleDQN": SimpleDQNAgent,
     "Formula": FormulaAgent,
     "Random": RandomAgent,
-    'DGN': DGNAgent,
     'GCN': GCNAgent,
     'SimpleDQNOne': SimpleDQNOneAgent,
     'STGAT':STGATAgent,
